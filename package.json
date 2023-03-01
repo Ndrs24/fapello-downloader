@@ -1,0 +1,28 @@
+{
+  "name": "fapello-downloader",
+  "version": "1.0.0",
+  "description": "Descarga el contenido de fapello.com",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ndrs24/fapello-downloader.git"
+  },
+  "keywords": [
+    "fapello",
+    "utilities",
+    "downloader"
+  ],
+  "author": "ndrs24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ndrs24/fapello-downloader/issues"
+  },
+  "homepage": "https://github.com/Ndrs24/fapello-downloader#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fapello": "^1.0.0"
+  }
+}
