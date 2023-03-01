@@ -3,7 +3,7 @@ import { mkdir, writeFile } from 'fs/promises'
 import { existGirl, getLinkImage, getLinkVideo, toSecureName } from 'fapello'
 import chalk from 'chalk'
 
-async function fpdownload(name, limit, outputDir = './downloads') {
+export async function fpdownload(name, limit, outputDir = './downloads') {
   name = toSecureName(name)
   const {exist, num} = await existGirl(name)
   if (!exist) return console.log(chalk.bold.red('[Fapello Downloader] Girl not exist'))
@@ -41,7 +41,3 @@ async function fpdownload(name, limit, outputDir = './downloads') {
 
   console.log(chalk.bold.green('\n[Fapello Downloader] Finished'))
 }
-
-(async () => {
-  await fpdownload('gigardez', 255)
-})()
