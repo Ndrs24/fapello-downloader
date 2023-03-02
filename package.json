@@ -1,8 +1,9 @@
 {
   "name": "fapello-downloader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Descarga el contenido de fapello.com",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,6 @@
   "homepage": "https://github.com/Ndrs24/fapello-downloader#readme",
   "dependencies": {
     "chalk": "^5.2.0",
-    "fapello": "^1.0.0"
+    "fapello": "^1.0.1"
   }
 }
